@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Mar 30 11:24:06 2021
+My attempt at translating an RNA sequence
+using an amino acid:codon dictionary.
+Will extract multiple protein sequences
+based on start and stop codon recognition.
+If desired, AA sequences can be written to
+a file (enter Y or N when prompted). 
+All sequences will be combined within a
+single FASTA file, named iteratively
+Protein1, Protein2, etc. 
 """
 
 RNA = "RNA.txt"
