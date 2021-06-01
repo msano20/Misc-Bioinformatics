@@ -4,7 +4,7 @@ Identifies and strips FASTA DNA file for conversion into RNA.
 RNA output is a text file (no heading)so it can be easily
 passed on to the translation script.
 """    
-file = 'rosalind_rna.txt' 
+file = 'DNA.txt' 
 
 def main():
     with open(file, 'r') as f:
